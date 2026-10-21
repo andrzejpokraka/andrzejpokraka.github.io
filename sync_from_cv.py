@@ -12,7 +12,8 @@ from pathlib import Path
 
 CV_DIR = Path.home() / "My Drive/Physics/CV/CV"
 CV_TEX = CV_DIR / "CV_Pokraka.tex"
-CV_PDF = CV_DIR / "CV_Pokraka.pdf"
+# The public copy is the website build of the CV (CVweb_Pokraka.tex).
+CV_PDF = CV_DIR / "CVweb_Pokraka.pdf"
 PAGE = Path("notes.html")
 
 ACCENTS = {r'\"o': "ö", r'\"u': "ü", r'\"a': "ä", r"\'e": "é", r"\'a": "á",
